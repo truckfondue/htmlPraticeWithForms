@@ -1,0 +1,62 @@
+.container {
+  width: 500px;
+  margin: 20px auto;
+  background: #ecf0f1;
+  position: relative;
+}
+
+textarea {
+	max-width: 100%;
+	box-sizing: border-box;
+	/*overflow: auto;*/
+	height: 200px;
+	width: 100%
+}
+
+.submit-button {
+	color: #fff;
+	display: block;
+	width: 100%;
+	padding: 5px 20px;
+	background: #c0392b;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 0;
+
+}
+
+.legend-strong {
+	text-transform: uppercase;
+	color: black;
+	margin: 0 5px 0 20px;
+	padding: 5px 10px;
+}
+
+.input-group {
+	overflow: hidden;
+	/*width: 100%*/
+}
+
+.form-label {
+	width: 100px;
+	line-height: 23px;
+	display: block;
+	float: left;
+	text-align: right;
+	padding: 5px;
+	color: #333;
+}
+
+.form-control {
+	/*height: 30px;*/
+	width: 335px;
+	padding: 5px;
+}
+
+.form-section {
+	border: 0;
+	border-top: 1px solid #979aab;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
